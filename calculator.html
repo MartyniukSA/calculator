@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="deposit-calculator">
+    <select data-deposit name="deposit-name">
+        <option value="standart"> Standart </option>
+        <option value="premium"> Premium </option>
+        <option value="vip"> VIP </option>
+    </select>
+    <textarea placeholder="Сумма депозита" data-max="100" id="money"> </textarea>
+    <select data-deposit name="term-deposit">
+        <option value="1">1</option>
+        <option value="3">3</option>
+        <option value="6">6</option>
+        <option value="12">12</option>
+    </select>
+</div>
+    <button class="button"> Посчитать </button>
+    <div class="result"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="calculator.js"></script>
+</body>
+</html>
